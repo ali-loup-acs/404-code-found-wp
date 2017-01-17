@@ -14,9 +14,9 @@
     <div class="banner">
 
       <div class="schoolLogo">
-        <a href="http://www.accesscodeschool.fr/"><img src="<?php echo get_template_directory_uri() . "/assets/img/logo/logo_ACS.png";?>" /></a>
-        <a href="https://www.grandeecolenumerique.fr"><img src="<?php echo get_template_directory_uri() . "/assets/img/logo/logo_GEN.png";?>" /></a>
-        <a href="http://www.onlineformapro.com/"><img src="<?php echo get_template_directory_uri() . "/assets/img/logo/logo_OFP.png";?>" /></a>
+        <a href="http://www.accesscodeschool.fr/"><img class="img-responsive" src="<?php echo get_template_directory_uri() . "/assets/img/logo/logo_ACS.png";?>" /></a>
+        <a href="https://www.grandeecolenumerique.fr"><img class="img-responsive" src="<?php echo get_template_directory_uri() . "/assets/img/logo/logo_GEN.png";?>" /></a>
+        <a href="http://www.onlineformapro.com/"><img class="img-responsive" src="<?php echo get_template_directory_uri() . "/assets/img/logo/logo_OFP.png";?>" /></a>
       </div>
 
       <div class="cfLogo">
