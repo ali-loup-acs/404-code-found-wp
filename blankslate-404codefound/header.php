@@ -7,7 +7,9 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-  <header class="container">
+ <div id="paper" style="background: url(<?php echo get_template_directory_uri() . "/assets/img/bg/05.png";?>) repeat;">
+
+    <header class="container">
 
     <div class="banner">
 
@@ -22,6 +24,7 @@
       </div>
 
     </div>
+
     <nav class="nav navbar text-center">
       <div class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>Auteurs</a>
@@ -37,7 +40,10 @@
         </ul>
       </div>
     </nav>
+
   </header>
+
+
 <div id="wrapper" class="hfeed">
 <header id="header" role="banner">
 <section id="branding">

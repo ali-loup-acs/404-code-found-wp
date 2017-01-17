@@ -15,13 +15,15 @@ array( 'main-menu' => __( 'Main Menu', 'blankslate' ) )
 /* Add bootstrap support to the Wordpress theme*/
 
 function theme_add_bootstrap() {
-  wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
-  wp_enqueue_style( 'bootstrap-theme-css', get_template_directory_uri() . '/assets/css/bootstrap-theme.min.css' );
-  wp_enqueue_style( 'style-css', get_template_directory_uri() . '/assets/css/style.css' );
-  wp_enqueue_style( 'font', get_template_directory_uri() . '/assets/fonts/borgia/stylesheet.css' );
-  wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array(), '3.0.0', true );
-  wp_enqueue_script( 'jquery', get_template_directory_uri() . '/assets/js/jquery.min.js', array(), '1.12.4', true );
+	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
+	wp_enqueue_style( 'bootstrap-theme-css', get_template_directory_uri() . '/assets/css/bootstrap-theme.min.css' );
+	wp_enqueue_style( 'style-css', get_template_directory_uri() . '/assets/css/style.css' );
+	wp_enqueue_style( 'font', get_template_directory_uri() . '/assets/fonts/borgia/stylesheet.css' );
+	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array(), '3.0.0', true );
+	wp_enqueue_script( 'jquery', get_template_directory_uri() . '/assets/js/jquery.min.js', array(), '1.12.4', true );
+	wp_enqueue_script( 'masonry', get_template_directory_uri() . '/assets/js/masonry.pkgd.js');
 }
+
 add_action( 'wp_enqueue_scripts', 'theme_add_bootstrap' );
 
 function blankslate_load_scripts()
