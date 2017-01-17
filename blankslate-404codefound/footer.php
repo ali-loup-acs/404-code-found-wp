@@ -7,5 +7,21 @@
 </footer>
 </div>
 <?php wp_footer(); ?>
+
+<script>
+var elem = document.querySelector('#testMasonry');
+var msnry = new Masonry( elem, {
+  // options
+  itemSelector: '.itemMasonry',
+  columnWidth: 200
+});
+
+// element argument can be a selector string
+//   for an individual element
+var msnry = new Masonry( '#testMasonry', {
+  // options
+});
+</script>
+</div>
 </body>
 </html>

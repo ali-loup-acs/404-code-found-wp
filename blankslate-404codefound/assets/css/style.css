@@ -35,7 +35,7 @@ body {
   margin-bottom: 2em;
 }
 .cfLogo img{
-  height: 50vh;
+  width: 100%;
 }
 
 
@@ -67,9 +67,7 @@ body {
 
 
 article{
-	padding-bottom: 2em;
 	margin-bottom: 3em;
-	border-bottom: 0.2em solid rgba(56,56,56,0.5);
 }
 
 article h2{
@@ -123,6 +121,8 @@ article aside{
 	font-size: 1.1em;
 	color:#383838;
 	padding-top: 1em;
+	padding-bottom: 2em;
+	border-bottom: 0.15em solid rgba(56,56,56,0.5);
 }
 
 a, a:active, a:focus{
@@ -130,3 +130,4 @@ a, a:active, a:focus{
   text-decoration: none;
 
 }
+

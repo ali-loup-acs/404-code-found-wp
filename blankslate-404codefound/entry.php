@@ -1,7 +1,7 @@
-<article class="col-md-4" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article class="col-md-4 itemMasonry" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 
-	<header class="col-md-12">
+	<header class="row">
 
 	<?php if ( is_singular() ) { echo '<h1 class="entry-title">'; } else { echo '<h2 class="entry-title">'; } ?>
 
