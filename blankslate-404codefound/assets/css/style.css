@@ -7,6 +7,7 @@ body {
   background: linear-gradient(#E9D2C2, #EFE3D8, #EFE3D8, #EFE3D8, #E9D2C2); /* Standard syntax */
 }
 
+
 #paper{
   background-image: url(../img/bg/05.png);
   background-repeat: repeat;
@@ -61,6 +62,7 @@ body {
   color: #EFE3D8;
   background-color:#383838;
   transition: 0.1s;
+	border:0.1em solid rgba(56,56,56,0);
 }
 
 article h2{
@@ -100,6 +102,18 @@ article{
 nav div{
   display: inline-block;
 }
+
 nav div a, nav div a::hover, nav div a::active, nav div a::visited {
   text-decoration: none;
+}
+
+article a{
+	color:#383838;
+}
+
+article aside{
+	font-family: 'borgia_proitalic';
+	font-size: 1.1em;
+	color:#383838;
+	padding-top: 1em;
 }
