@@ -13,22 +13,29 @@
 
       <div class="schoolLogo">
         <a href="http://www.accesscodeschool.fr/"><img src="<?php echo get_template_directory_uri() . "/assets/img/logo/logo_ACS.png";?>" /></a>
-        <a href="https://www.grandeecolenumerique.fr">/<img src="<?php echo get_template_directory_uri() . "/assets/img/logo/logo_GEN.png";?>" /></a>
+        <a href="https://www.grandeecolenumerique.fr"><img src="<?php echo get_template_directory_uri() . "/assets/img/logo/logo_GEN.png";?>" /></a>
         <a href="http://www.onlineformapro.com/"><img src="<?php echo get_template_directory_uri() . "/assets/img/logo/logo_OFP.png";?>" /></a>
       </div>
 
       <div class="cfLogo">
-        <img src="<?php echo get_template_directory_uri() . "/assets/img/logo/logo_404.png";?>" />
+        <a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri() . "/assets/img/logo/logo_405.png";?>" /></a>
       </div>
 
     </div>
-    <nav class="navbar">
-      <ul>
-        <?php wp_list_authors(array( 'orderby'=>'nicename','name' => 'authors' )); ?>
-      </ul>
-      <ul>
-        <?php wp_list_categories(array('title_li'=>'')); ?>
-      </ul>
+    <nav class="nav navbar text-center">
+      <div class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>Auteurs</a>
+        <ul class="dropdown-menu">
+          <?php wp_list_authors(array( 'orderby'=>'nicename','name' => 'authors' )); ?>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>Catégories</a>
+        <ul class="dropdown-menu">
+          <?php wp_list_categories(array('title_li'=>'')); ?>
+        </ul>
+      </div>
     </nav>
   </header>
 <div id="wrapper" class="hfeed">
@@ -43,5 +50,5 @@
 </div>
 <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
 </nav> -->
-</header>
-<div id="container">
+  </header>
+<div class="container">

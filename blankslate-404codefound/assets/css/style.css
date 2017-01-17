@@ -97,10 +97,9 @@ article{
   border-radius: 0;
   font-weight: bold;
 }
-nav ul {
-  margin-bottom: 0;
-  text-align: center;
-}
-nav ul li{
+nav div{
   display: inline-block;
+}
+nav div a, nav div a::hover, nav div a::active, nav div a::visited {
+  text-decoration: none;
 }
