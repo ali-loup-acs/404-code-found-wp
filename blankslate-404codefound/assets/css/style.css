@@ -103,17 +103,15 @@ nav div{
   display: inline-block;
 }
 
-nav div a, nav div a::hover, nav div a::active, nav div a::visited {
-  text-decoration: none;
-}
-
-article a{
-	color:#383838;
-}
-
 article aside{
 	font-family: 'borgia_proitalic';
 	font-size: 1.1em;
 	color:#383838;
 	padding-top: 1em;
+}
+
+a, a:active, a:focus{
+  color:#383838;
+  text-decoration: none;
+
 }
