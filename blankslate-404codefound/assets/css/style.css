@@ -65,6 +65,13 @@ body {
 	border:0.1em solid rgba(56,56,56,0);
 }
 
+
+article{
+	padding-bottom: 2em;
+	margin-bottom: 3em;
+	border-bottom: 0.2em solid rgba(56,56,56,0.5);
+}
+
 article h2{
   font-family: 'borgia_probold';
   text-transform: uppercase;
@@ -84,10 +91,15 @@ article p::first-letter {
     font-size: 200%;
 }
 
-article{
-  padding-bottom: 2em;
-  padding-top: 3em;
-  border-bottom: 0.2em solid rgba(56,56,56,0.5);
+article a{
+	color:#383838;
+}
+
+article aside{
+	font-family: 'borgia_proitalic';
+	font-size: 1.1em;
+	color:#383838;
+	padding-top: 1em;
 }
 
 .navbar {
@@ -98,7 +110,10 @@ article{
   border-color: rgba(56,56,56,0.5);
   border-radius: 0;
   font-weight: bold;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
+
 nav div{
   display: inline-block;
 }
