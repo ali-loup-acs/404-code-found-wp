@@ -7,12 +7,6 @@ body {
   background: linear-gradient(#E9D2C2, #EFE3D8, #EFE3D8, #EFE3D8, #E9D2C2); /* Standard syntax */
 }
 
-
-#paper{
-  background-image: url(../img/bg/05.png);
-  background-repeat: repeat;
-}
-
 .banner{
   display: flex;
   flex-flow:column;
@@ -35,7 +29,7 @@ body {
   margin-bottom: 2em;
 }
 .cfLogo img{
-  height: 50vh;
+  height: 100%;
 }
 
 
@@ -112,6 +106,7 @@ article aside{
   font-weight: bold;
 	margin-bottom: 0;
 	padding-bottom: 0;
+  line-height: 1.8em;
 }
 
 nav div{
@@ -129,4 +124,8 @@ a, a:active, a:focus{
   color:#383838;
   text-decoration: none;
 
+}
+
+.dropdown{
+  margin: 0 1em;
 }
