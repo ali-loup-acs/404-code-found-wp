@@ -1,0 +1,75 @@
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2017 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      FontSite Inc.
+ * License URL: https://www.fontspring.com/licenses/fontsite/webfont
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'borgia_probold';
+    src: url('BorgiaPro-Bold-webfont.eot');
+    src: url('BorgiaPro-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BorgiaPro-Bold-webfont.woff2') format('woff2'),
+         url('BorgiaPro-Bold-webfont.woff') format('woff'),
+         url('BorgiaPro-Bold-webfont.ttf') format('truetype'),
+         url('BorgiaPro-Bold-webfont.svg#borgia_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'borgia_probold_italic';
+    src: url('BorgiaPro-BoldItalic-webfont.eot');
+    src: url('BorgiaPro-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BorgiaPro-BoldItalic-webfont.woff2') format('woff2'),
+         url('BorgiaPro-BoldItalic-webfont.woff') format('woff'),
+         url('BorgiaPro-BoldItalic-webfont.ttf') format('truetype'),
+         url('BorgiaPro-BoldItalic-webfont.svg#borgia_probold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'borgia_proitalic';
+    src: url('BorgiaPro-Italic-webfont.eot');
+    src: url('BorgiaPro-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BorgiaPro-Italic-webfont.woff2') format('woff2'),
+         url('BorgiaPro-Italic-webfont.woff') format('woff'),
+         url('BorgiaPro-Italic-webfont.ttf') format('truetype'),
+         url('BorgiaPro-Italic-webfont.svg#borgia_proitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'borgia_proregular';
+    src: url('BorgiaPro-Regular-webfont.eot');
+    src: url('BorgiaPro-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BorgiaPro-Regular-webfont.woff2') format('woff2'),
+         url('BorgiaPro-Regular-webfont.woff') format('woff'),
+         url('BorgiaPro-Regular-webfont.ttf') format('truetype'),
+         url('BorgiaPro-Regular-webfont.svg#borgia_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="viewport" content="width=device-width" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
 <?php wp_head(); ?>
 </head>
@@ -12,13 +12,13 @@
     <div class="banner">
 
       <div class="schoolLogo">
-        <a href="http://www.accesscodeschool.fr/"><img src="assets/img/logo/logo_ACS.png" /></a>
-        <a href="https://www.grandeecolenumerique.fr">/<img src="assets/img/logo/logo_GEN.png" /></a>
-        <a href="http://www.onlineformapro.com/"><img src="assets/img/logo/logo_OFP.png" /></a>
+        <a href="http://www.accesscodeschool.fr/"><img src="<?php echo get_template_directory_uri() . "/assets/img/logo/logo_ACS.png";?>" /></a>
+        <a href="https://www.grandeecolenumerique.fr">/<img src="<?php echo get_template_directory_uri() . "/assets/img/logo/logo_GEN.png";?>" /></a>
+        <a href="http://www.onlineformapro.com/"><img src="<?php echo get_template_directory_uri() . "/assets/img/logo/logo_OFP.png";?>" /></a>
       </div>
 
       <div class="cfLogo">
-        <img src="assets/img/logo/logo_404.png" />
+        <img src="<?php echo get_template_directory_uri() . "/assets/img/logo/logo_404.png";?>" />
       </div>
 
     </div>
@@ -28,7 +28,6 @@
       </ul>
       <ul>
         <?php wp_list_categories(array('title_li'=>'')); ?>
-      </ul>
       </ul>
     </nav>
   </header>

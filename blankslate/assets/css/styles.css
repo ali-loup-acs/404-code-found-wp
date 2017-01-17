@@ -1,0 +1,106 @@
+body {
+
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#E9D2C2, #EFE3D8, #EFE3D8, #EFE3D8, #E9D2C2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#E9D2C2, #EFE3D8, #EFE3D8, #EFE3D8, #E9D2C2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#E9D2C2, #EFE3D8, #EFE3D8, #EFE3D8, #E9D2C2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#E9D2C2, #EFE3D8, #EFE3D8, #EFE3D8, #E9D2C2); /* Standard syntax */
+}
+
+#paper{
+  background-image: url(../img/bg/05.png);
+  background-repeat: repeat;
+}
+
+.banner{
+  display: flex;
+  flex-flow:column;
+}
+
+.schoolLogo{
+  display: flex;
+  justify-content: center;
+  margin: 1.5em;
+}
+
+.schoolLogo a{
+  align-self: center;
+}
+
+
+.cfLogo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.cfLogo img{
+  height: 50vh;
+}
+
+
+.col-md-4{
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.btn-default {
+  font-family: 'borgia_proitalic';
+  font-size: 1.3em;
+  color:#383838;
+  background: none;
+  box-shadow: none;
+  border: none;
+  border: 0.1em solid rgba(56,56,56,0.5);
+  border-radius: 0px;
+  text-shadow: none;
+  transition:0.1s;
+}
+
+.btn-default:hover {
+  text-decoration: none;
+  color: #EFE3D8;
+  background-color:#383838;
+  transition: 0.1s;
+}
+
+article h2{
+  font-family: 'borgia_probold';
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #383838;
+  text-align: center;
+}
+
+article p{
+  font-family: 'borgia_proregular';
+  font-size: 1.4em;
+  text-align: justify;
+  color:#383838;
+}
+
+article p::first-letter {
+    font-size: 200%;
+}
+
+article{
+  padding-bottom: 2em;
+  padding-top: 3em;
+  border-bottom: 0.2em solid rgba(56,56,56,0.5);
+}
+
+.navbar {
+  font-family: 'borgia_proitalic';
+  font-size: 1.8em;
+  color:#383838;
+  border-width: 0.1em 0em;
+  border-color: rgba(56,56,56,0.5);
+  border-radius: 0;
+  font-weight: bold;
+}
+nav ul {
+  margin-bottom: 0;
+  text-align: center;
+}
+nav ul li{
+  display: inline-block;
+}
