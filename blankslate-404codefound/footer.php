@@ -13,7 +13,7 @@ var elem = document.querySelector('#testMasonry');
 var msnry = new Masonry( elem, {
   // options
   itemSelector: '.itemMasonry',
-  columnWidth: 200
+  columnWidth: 100
 });
 
 // element argument can be a selector string
